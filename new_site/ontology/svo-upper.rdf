@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://scientificvariablesontology.org#"
+     xml:base="http://scientificvariablesontology.org"
+     xmlns:opla="http://ontologydesignpatterns.org/opla#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://scientificvariablesontology.org">
+        <owl:versionIRI rdf:resource="http://scientificvariablesontology.org/2.0.0"/>
+        <rdfs:comment>Scientific Variables Ontology ver 2.0.0</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://scientificvariablesontology.org#Abstraction -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Abstraction">
+        <rdfs:comment>a complementary entity to a Phenomenon, Property, or Phenomenon building block, that is a mathematical representation of that entity</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#Attribute -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Attribute">
+        <rdfs:comment>an ontological construct that provides a generic design pattern for attaching a property and associated value to a phenomenon to specify one of its set characteristics from the perspective of an identified scientific variable</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#Context -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Context">
+        <rdfs:comment>an ontological construct that creates a link between two phenomena to indicate that one phenomenon provides spatiotemporal information for the other phenomenon, from the perspective of the focus phenomena of an identified scientific variable</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#Form -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Form">
+        <rdfs:subClassOf rdf:resource="http://scientificvariablesontology.org#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#Matter -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Matter">
+        <rdfs:subClassOf rdf:resource="http://scientificvariablesontology.org#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#Part -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Part">
+        <rdfs:subClassOf rdf:resource="http://scientificvariablesontology.org#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#Participant -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Participant">
+        <rdfs:comment>an ontological construct that links a Phenomenon participating in a Phenomenon with a Process and assigns that Phenomenon a role in the Process</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#ParticipantRole -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#ParticipantRole">
+        <rdfs:comment>a reification that identifies a Phenomenon&apos;s function in another Phenomenon that involves a Process</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#Phenomenon -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Phenomenon">
+        <rdfs:comment>anything (concrete) that can be or is observed to exist or happen in the physical universe</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#Process -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Process">
+        <rdfs:comment>an act or activity in which a phenomenon participates that changes the state of that phenomenon. Processes may involve multiple participants.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#Property -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Property">
+        <rdfs:comment>any characteristic or quality of a Phenomenon or Abstraction</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#PropertyRole -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#PropertyRole">
+        <rdfs:comment>the part assumed by a Variable in an Abstraction</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#Reference -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Reference">
+        <rdfs:comment>an ontological construct that creates a link between two variables to indicate that the value of one variable provides a reference for the assessment of the value of the second variable</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#Role -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#Role">
+        <rdfs:subClassOf rdf:resource="http://scientificvariablesontology.org#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#ScientificVariable -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#ScientificVariable">
+        <rdfs:comment>an identifier for a Property-Phenomenon pairing that idicates a unique physical system and/or abstraction of a physical system and corresponding characteristic being observed or modeled by a scientist</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#SpatiotemporalRelationship -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#SpatiotemporalRelationship">
+        <rdfs:comment>reification that identifies the connection between two Phenomena or Variables</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://scientificvariablesontology.org#VariableRole -->
+
+    <owl:Class rdf:about="http://scientificvariablesontology.org#VariableRole">
+        <rdfs:comment>the function or part assument by a Phenomenon in a Variable</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

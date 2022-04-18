@@ -1,0 +1,44 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+  <header id="navigation">
+    <a href="index.html"><img id="logo" src="pics/svo_logo.png" alt="logo"></a>
+    <nav>
+      <ul id="menu">
+        <li class="menu-heading"><a href="documentation.html">Documentation</a></li>
+        <li class="menu-heading"><a href="tutorial_create_variable_manually.html">Tutorial</a></li>
+        <hr>
+        <li class="menu-heading menu-highlight"><a href="faq.html">FAQ</a></li>
+        <hr>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Frequently Asked Questions</h1>
+    <details open>
+      <summary>There are two different representations for the scientific variable I want to describe. Why is this?</summary>
+      <p>Since SVO representations are linguistically informed, there may be multiple representations for the same variable depending on the perspective of the individual creating the variable representation. Different representations will focus on different aspects of the same variable and should not contradict each other. Multiple representations are valid and indeed unavoidable, since the domain will determine which aspects are of interest to a scientist; therefore, it is important to determine whether an existing variable representation is equivalent to any currently defined variable and to link these representations to each other.</p>
+    </details>
+    <details open>
+      <summary>Is this an ontology of standard names?</summary>
+      <p>The original layout for SVO was originally created with the intent of expressing the set of CSDMS standard names in ontology form. SVO has undergone several transformations since, after the analysis of more than 15,000 variables across fields within the geosciences. The current ontology is designed to be terminology agnostic and can be augmented to include an unlimited number of synonymous terms.</p>
+    </details>
+    <details open>
+      <summary>What are the advantages of using an ontology over standard names?</summary>
+      <p>There are many reasons one may wish to use an ontology over a standard naming scheme. Standard names are based on a controlled vocabulary, while an ontology is terminology agnostic; thus an ontology is more linguistically flexible. Since an ontology can express a web of information, it is more manageable than a set of standard names, especially for representing complex concepts that involve many facets, because (a) it assigns roles to components of a variable, (b) assigns relationship types between components, and (c) can hold hidden information associated with components. Most importantly, an ontology is encoded in machine-readable form and thus is a key component of automated scientific workflows and resource and knowledge discovery.</p>
+    </details>
+    <details open>
+      <summary>How is SVO related to the CF standard names?</summary>
+      <p>The structure of the CF standard names provided valuable insight for developing the atomistic concept classes needed to express various aspects of a variable, such as operations and spatial context. SVO has already incorporated the vocabulary of atomistic concepts from CF standard names. There is currently a mapping (under review) of full CF standard names to SVO concepts. These ontology entries cross-reference the corresponding CF standard names.</p>
+    </details>
+    <details open>
+      <summary>How is SVO related to and different from QUDT?</summary>
+      <p>SVO is designed to be compatible with and complementary to QUDT. QUDT is an ontology rich with information about unit representation and conversion; SVO on the other hand focuses on the identification, creation, and alignment of complete variable concepts, including observation phenomena (such as substance, form, body) and spatiotemporal contexts. SVO and QUDT can be aligned by matching the overlapping entities present in the Quantitative Property (SVO) class to the Quantity Kind (QUDT) class.</p>
+    </details>
+  </main>
+</body>
