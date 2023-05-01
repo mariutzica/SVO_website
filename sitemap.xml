@@ -1,7 +1,19 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
+    <url>
+		<loc>https://scientificvariablesontology.org/new_site/index.html</loc>
+	</url>
+    <url>
+		<loc>https://scientificvariablesontology.org/new_site/documentation.html</loc>
+	</url>
+    <url>
+		<loc>https://scientificvariablesontology.org/new_site/faq.html</loc>
+	</url>
+    <url>
+		<loc>https://scientificvariablesontology.org/new_site/tutorial_create_variable_manually.html</loc>
+	</url>
+	    
 	<url>
 		<loc>https://scientificvariablesontology.org/new_site/svo/phenomenon/algae/</loc>
 		<lastmod>2023-05-01T16:24:43</lastmod>
