@@ -7883,7 +7883,6 @@ https://scientificvariablesontology.org/svo/abstraction/rooted-tree-graph/index.
 https://scientificvariablesontology.org/svo/abstraction/grid/index.html
 https://scientificvariablesontology.org/svo/abstraction/line/index.html
 https://scientificvariablesontology.org/svo/abstraction/mask/index.html
-https://scientificvariablesontology.org/svo/abstraction/math/index.html
 https://scientificvariablesontology.org/svo/abstraction/model/index.html
 https://scientificvariablesontology.org/svo/abstraction/origin/index.html
 https://scientificvariablesontology.org/svo/abstraction/parabola/index.html
@@ -7916,7 +7915,6 @@ https://scientificvariablesontology.org/svo/abstraction/image/index.html
 https://scientificvariablesontology.org/svo/abstraction/location/index.html
 https://scientificvariablesontology.org/svo/abstraction/market-basket/index.html
 https://scientificvariablesontology.org/svo/abstraction/mohr-coulomb-plastic/index.html
-https://scientificvariablesontology.org/svo/abstraction/physics/index.html
 https://scientificvariablesontology.org/svo/abstraction/streamline/index.html
 https://scientificvariablesontology.org/svo/abstraction/transect/index.html
 https://scientificvariablesontology.org/svo/abstraction/apex/index.html
@@ -9292,6 +9290,8 @@ https://scientificvariablesontology.org/svo/direction/east/index.html
 https://scientificvariablesontology.org/svo/direction/north/index.html
 https://scientificvariablesontology.org/svo/direction/south/index.html
 https://scientificvariablesontology.org/svo/direction/west/index.html
+https://scientificvariablesontology.org/svo/domain/math/index.html
+https://scientificvariablesontology.org/svo/domain/physics/index.html
 https://scientificvariablesontology.org/svo/domain/forestry/index.html
 https://scientificvariablesontology.org/svo/trajectory/optical-path/index.html
 https://scientificvariablesontology.org/svo/trajectory/orbit/index.html
